@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Modelo de Caixas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            margin: 10px 0;
+        }
+
+        nav>a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        article {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        footer>p{
+            font-size: 0.9em;
+            margin: 0px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Sobre</a> |
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Games | Tecnologia | Animes</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sapiente facilis quod vero, atque rerum fugiat iure sit nihil doloribus quo totam mollitia quisquam quas quae quos et. Obcaecati, quaerat.</p>
+                <aside>
+                    <p>Leia mais sobre esse anime em <a href="#">nosso blog</a></p>
+                </aside>
+            </article>
+            <article>
+                <h2>Notícia 2</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, assumenda! Fugit quae ea a iure perferendis tenetur nulla error. Debitis id cum adipisci aut voluptatem sit, quidem alias distinctio. Quisquam?</p>
+                <aside>
+                    <p>Leia mais sobre esse jogo em <a href="#">nosso blog</a></p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Bruno Graf</p>
+    </footer>
+</body>
+</html>

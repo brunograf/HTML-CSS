@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens Dinâmicas e Áudios</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas e áudios</h1>
+        <hr>
+        <h2>Imagens dinâmicas</h2>
+            <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+            <picture>
+                <source media="(max-width: 750px)" srcset="Imagens/Imagem-P.png" type="image/png">
+                <source media="(max-width: 1050px)" srcset="Imagens/Imagem-M.png" type="image/png">
+                <img src="Imagens/Imagem-G.png" alt="Imagem flexível grande">
+            </picture>
+        <h2>Áudios</h2>
+            <p>Apredendo a reproduzir áudios em HTML5</p>
+            <audio preload="metadata" controls loop>
+                <source src="Midia/guanacast-33.mp3" type="audio/mpeg">
+                <source src="Midia/guanacast-33.ogg" type="audio/ogg">
+                <source src="Midia/guanacast-33.wav" type="audio/wav">
+                <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="Midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3!</a></p>
+            </audio>
+</body>
+</html>
