@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tabelas em HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+        
+        caption {
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        th, td {
+            border: solid 1px #000;
+            padding: 10px;
+            text-align: center;
+        }
+        .numero {
+            text-align: right;
+        }
+    </style>
+<body>
+    <h1>Tabelas em HTML</h1>    
+        <hr>
+        <table>
+            <caption>Unidades federativas do Brasil por população</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Estado</th>
+                    <th scope="col">População</th>
+                    <th scope="col">% do total</th>
+                    <th scope="col">País comparável</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">46.081.801</td>
+                    <td>21,59%</td>
+                    <td>Argentina</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="numero">21.393.441</td>
+                    <td>10,02%</td>
+                    <td>Chade</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17.223.547</td>
+                    <td>8,07%</td>
+                    <td>Zimbabwe</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">14.870.907</td>
+                    <td>6,97%</td>
+                    <td>Benim</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="numero">11.890.517</td>
+                    <td>5,57%</td>
+                    <td>Haiti</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td class="numero">11.233.263</td>
+                    <td>5,26%</td>
+                    <td>Emirados Árabes Unidos</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">9.562.007</td>
+                    <td>4,48%</td>
+                    <td>Israel</td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td class="numero">9.268.836</td>
+                    <td>4,34%</td>
+                    <td>Áustria</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td class="numero">8.711.196</td>
+                    <td>4,08%</td>
+                    <td>Serra Leoa</td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td class="numero">8.187.029</td>
+                    <td>3,84%</td>
+                    <td>Laos</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Total</th>
+                    <td class="numero"><strong>158.422.544</strong></td>
+                    <td><strong>74,22%</strong></td>
+                    <td><strong>---</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+</body>
+</html>
