@@ -13,6 +13,7 @@
         table {
             width: 600px;
             border-collapse: collapse;
+            position: relative;
         }
         
         caption {
@@ -26,11 +27,22 @@
             color: white;
         }
 
+        thead>tr>th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
         th, td {
             border: solid 1px #000;
             padding: 10px;
             text-align: center;
         }
+
         .numero {
             text-align: right;
         }
@@ -109,12 +121,114 @@
                     <td>3,84%</td>
                     <td>Laos</td>
                 </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td class="numero">7.423.629</td>
+                    <td>3,48%</td>
+                    <td>Líbia</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td class="numero">7.018.211</td>
+                    <td>3,29%</td>
+                    <td>Paraguai</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td class="numero">4.321.616</td>
+                    <td>2,02%</td>
+                    <td>Panamá</td>
+                </tr>
+                <tr>
+                    <td>Paraíba</td>
+                    <td class="numero">4.164.468</td>
+                    <td>1,95%</td>
+                    <td>Croácia</td>
+                </tr>
+                <tr>
+                    <td>Espírito Santo</td>
+                    <td class="numero">4.126.854</td>
+                    <td>1,93%</td>
+                    <td>Croácia</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso</td>
+                    <td class="numero">3.893.659</td>
+                    <td>1,82%</td>
+                    <td>Croácia</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Norte</td>
+                    <td class="numero">3.455.236</td>
+                    <td>1,62%</td>
+                    <td>Mongólia</td>
+                </tr>
+                <tr>
+                    <td>Piauí</td>
+                    <td class="numero">3.384.547</td>
+                    <td>1,59%</td>
+                    <td>Uruguai</td>
+                </tr>
+                <tr>
+                    <td>Alagoas</td>
+                    <td class="numero">3.220.848</td>
+                    <td>1,51%</td>
+                    <td>Bósnia e Herzegovina</td>
+                </tr>
+                <tr>
+                    <td>Distrito Federal</td>
+                    <td class="numero">2.996.899</td>
+                    <td>1,40%</td>
+                    <td>Moldávia</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso do Sul</td>
+                    <td class="numero">2.924.631</td>
+                    <td>1,37%</td>
+                    <td>Armênia</td>
+                </tr>
+                <tr>
+                    <td>Sergipe</td>
+                    <td class="numero">2.299.425</td>
+                    <td>1,08%</td>
+                    <td>Guiné-Bissau</td>
+                </tr>
+                <tr>
+                    <td>Rondônia</td>
+                    <td class="numero">1.751.950</td>
+                    <td>0,82%</td>
+                    <td>Macedônia do Norte</td>
+                </tr>
+                <tr>
+                    <td>Tocantins</td>
+                    <td class="numero">1.586.859</td>
+                    <td>0,74%</td>
+                    <td>Barém</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="numero">884.372</td>
+                    <td>0,41%</td>
+                    <td>Comores</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="numero">806.517</td>
+                    <td>0,38%</td>
+                    <td>Butão</td>
+                </tr>
+                <tr>
+                    <td>Roraima</td>
+                    <td class="numero">738.772</td>
+                    <td>0,35%</td>
+                    <td>Butão</td>
+                </tr>
             </tbody>
             <tfoot>
                 <tr>
                     <th scope="row">Total</th>
-                    <td class="numero"><strong>158.422.544</strong></td>
-                    <td><strong>74,22%</strong></td>
+                    <td class="numero"><strong>213.421.037</strong></td>
+                    <td><strong>100%</strong></td>
                     <td><strong>---</strong></td>
                 </tr>
             </tfoot>
