@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tabelas em HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th{
+            border: 1px solid #000;
+            text-align: center;
+            padding: 8px;
+            background-color: lightgray;
+        }
+
+        td {
+            border: 1px solid #000;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        caption {
+            font-weight: bold;
+        }
+
+        .cnome {
+            background-color: blue;
+        }
+
+        .csexo {
+            background-color: pink;
+        }
+
+        .cidade {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas em HTML</h1>
+        <hr>
+        <table>
+            <caption>Cadastro</caption>
+            <colgroup>
+                <col class="cnome"></col>
+                <col class="csexo"></col>
+                <col class="cidade"></col>
+                <col class="cprof"></col>
+            </colgroup>
+            <thead>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana Maria</td>
+                    <td>F</td>
+                    <td>25</td>
+                    <td>Jornalista</td>
+                </tr>
+                <tr>
+                    <td>João Pedro</td>
+                    <td>M</td>
+                    <td>30</td>
+                    <td>Engenheiro</td>
+                </tr>
+                <tr>
+                    <td>Carla Souza</td>
+                    <td>F</td>
+                    <td>28</td>
+                    <td>Médica</td>
+                </tr>
+                <tr>
+                    <td>Lucas Lima</td>
+                    <td>M</td>
+                    <td>22</td>
+                    <td>Estudante</td>
+                </tr>
+                <tr>
+                    <td>Mariana Alves</td>
+                    <td>F</td>
+                    <td>35</td>
+                    <td>Advogada</td>
+                </tr>
+                <tr>
+                    <td>Rafael Costa</td>
+                    <td>M</td>
+                    <td>27</td>
+                    <td>Designer</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>
